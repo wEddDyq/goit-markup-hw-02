@@ -68,8 +68,6 @@
  
    font-family: 'Roboto', sans-serif;
    letter-spacing: 0.02em;
-   font-weight: 400;
-  font-style: normal;
  }
  
  .container {
@@ -89,15 +87,10 @@
   text-transform: uppercase;
   letter-spacing: 0.03em;
   text-decoration: none;
+  color: var(--brand-color)
  }
 
  .logo-web {
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
   color: var(--primary-brand-color);
  }
 
@@ -110,7 +103,7 @@
  .nav-menu {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-decoration: none;
   color:var(--brand-color);
  }
@@ -123,7 +116,7 @@
  .nav-item {
   text-decoration: none;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color:var(--brand-color)
  }
@@ -144,17 +137,21 @@
  .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1,07;
   color: var(--white-color);
   text-align: center; 
   letter-spacing: 0.02em;
  }
  
  .btn {
-  background: var(--primary-brand-color);
+  background-color: var(--primary-brand-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color:var(--button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
  }
 
  .btn:hover,
@@ -171,13 +168,14 @@
 .advant-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px; 
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
 }
  
 
 .advant-items {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -187,7 +185,7 @@
 .about-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
@@ -198,21 +196,21 @@
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
 }
 
 .team-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
 }
 
 .team-job {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--text-color);
 
 }
@@ -236,7 +234,7 @@
 
 .footer-title {
   color:var(--white-color);
-  line-height: 24px;
+  line-height: 1.5;
 }
 
 
@@ -247,6 +245,10 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color:var(--primary-brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .btn-port:hover,
@@ -259,5 +261,5 @@
 .project-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
 }
